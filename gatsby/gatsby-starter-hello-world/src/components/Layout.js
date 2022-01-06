@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import '../styles/global.css'
 
 export default function Layout({ children }) {
   return (
@@ -9,7 +10,7 @@ export default function Layout({ children }) {
         { children }
       </div>
       <footer>
-        <p>Copyright 2021 Web Warrior</p>
+        <p>Copyright 2022 Shivam Devaser</p>
       </footer>
     </div>
   )
