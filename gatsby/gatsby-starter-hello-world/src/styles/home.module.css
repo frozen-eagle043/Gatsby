@@ -1,4 +1,5 @@
 .header {
+    color: #e6cf07;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
@@ -14,14 +15,13 @@
   }
 .btn {
     display: inline-block;
-    border-color: darkgoldenrod;
-    background: #9d5c0d28;
+    
+    background: #9d5c0d00;
     padding: 10px 16px;
-    border-radius: 10px;
+    border-bottom: 3px solid transparent;
     margin-top: 20px;
     font-weight: 500;
   }
   .btn:hover{
-    background: #F5F5F5;
-    color: rgb(8, 0, 0);
+    border-color: rgb(240, 198, 10);
   }
