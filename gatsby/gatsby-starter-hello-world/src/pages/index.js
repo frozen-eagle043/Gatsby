@@ -12,6 +12,7 @@ export default function Home() {
           <h3>Develop & Deploy</h3>
           <p>UX designer & web developer based in India.</p>
           <Link className={style.btn} to="/projects">My Portfolio Projects</Link>
+          <Link className={style.btn} to="/blank">Blank</Link>
         </div>
       </section>
     </Layout>
